@@ -1,1 +1,49 @@
-코드스테이츠 시작
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="form">
+    <label class="input-form valid">
+      <span>ID</span>
+      <input type="text">
+      <span class="message">
+        <i class="fa fa-check-circle" aria-hidden="true">
+        </i>
+        아이디를 5글자 이상 적어주세요
+      </span>
+    </label>
+
+    <label class="input-form valid">
+      <span>Phone number</span>
+      <input type="text">
+      <span class="message">
+        <i class="fa fa-check-circle" aria-hidden="true">
+        </i>
+        핸드폰 번호는 000-0000-0000과 형식이 같아야 합니다
+      </span>
+    </label>
+
+    <label class="input-form invalid">
+      <span>Confirm phone number</span>
+      <input type="text">
+      <span class="message">
+        <i class="fa fa-times" aria-hidden="true">
+        </i>
+        핸드폰 번호가 일치하지 않습니다
+      </span>
+    </label>
+  </div>
+  <div id="invalid-message"></div>
+  <button id="btn-signup">회원가입</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

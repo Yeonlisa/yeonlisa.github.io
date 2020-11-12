@@ -1,0 +1,89 @@
+/* guide.css 를 참고하셔도 좋고, 복사/붙여넣기 해서 있는 그대로 쓰셔도 좋습니다 */
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --invalid-text-color: rgb(177, 59, 69);
+    --invalid-border-color: rgba(177, 59, 69, .2);
+    --invalid-background-color: rgb(250, 208, 215);
+    --valid-text-color: rgb(51, 173, 51);
+    --minimum-width: 600px;
+  }
+  
+  .form {
+    min-width: var(--minimum-width);
+    width: 85%;
+  }
+  
+  .input-form {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .input-form input[type=text],
+  .input-form textarea {
+    padding: 4px 6px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    min-width: 200px;
+  }
+  
+  .input-form input[type=text]:focus,
+  .input-form textarea:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 1px solid #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+  
+  .input-form.invalid {
+    background-color: rgb(250, 208, 215);
+    color: red;
+    border-bottom: 1px solid red;
+  }
+  
+  .input-form.invalid input {
+    border: 1px solid red;
+  }
+  
+  .input-form > span:first-child {
+    display: inline-block;
+    width: 18ch;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .input-form > .message {
+    margin: 10px;
+    font-size: 0.85rem;
+    display: none;
+  }
+  
+  .input-form.valid > .message,
+  .input-form.invalid > .message {
+    display: inline;
+  }
+  
+  .input-form i.fa {
+    color: green;
+  }
+  
+  .input-form.invalid i.fa {
+    color: red;
+  }
+  
+  #invalid-message {
+    display: none;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  #invalid-message.show {
+    display: block;
+  }
