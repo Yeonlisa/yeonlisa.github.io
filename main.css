@@ -1,0 +1,220 @@
+/* modified from w3.css */
+
+button,
+input {
+  overflow: visible;
+}
+
+html,
+body {
+  /* font-family: 'Segoe UI', Arial, sans-serif; */
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+h3:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+
+textarea {
+  font: inherit;
+  margin: 0;
+  overflow: auto;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+li {
+  padding: 1em;
+  /* margin-bottom: 1em; */
+}
+
+#idUserNameInput {
+  display: inline-block;
+  padding: 7px 30px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#idUserTweetInput {
+  display: inline-block;
+  padding: 10px 30px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.inputLabel {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.classUserNameTweet {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.classUserNameTweet:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+p .button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tag {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+
+.container {
+  padding: 0.01em 16px;
+}
+
+/* border (테두리) */
+.border-0 {
+  border: 0 !important;
+}
+.border {
+  border: 1px solid #ccc !important;
+}
+
+.margin {
+  margin: 16px !important;
+}
+.margin-top {
+  margin-top: 16px !important;
+}
+.margin-bottom {
+  margin-bottom: 16px !important;
+}
+.margin-left {
+  margin-left: 16px !important;
+}
+.margin-right {
+  margin-right: 16px !important;
+}
+
+.padding-large {
+  padding: 12px 24px !important;
+}
+.padding-32 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+/* 투명도 */
+.opacity {
+  opacity: 0.6;
+}
+.opacity-off {
+  opacity: 1;
+}
+
+/* alignment */
+.left {
+  float: left !important;
+}
+.right {
+  float: right !important;
+}
+
+/* text alignment */
+.left-align {
+  text-align: left !important;
+}
+.right-align {
+  text-align: right !important;
+}
+.justify {
+  text-align: justify !important;
+}
+.center {
+  text-align: center !important;
+}
+
+/* 버튼위에 마우스를 올려놓으면 작동 (hover) */
+.button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+/* Colors */
+.white {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.black {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+.grey {
+  color: #000 !important;
+  background-color: #9e9e9e !important;
+}
+.light-grey {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+.pink {
+  color: #000 !important;
+  background-color: pink !important;
+}
